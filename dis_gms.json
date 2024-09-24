@@ -1,0 +1,527 @@
+{
+  "distributors": [
+    {
+      "distributorId": "cpm",
+      "distributorName": "CAPCOM",
+      "urlName": "capcom.html",
+      "primaryColor": "#ffcb06",
+      "secondaryColor": "#0e4ca1",
+      "imageUrl": "https://static.tweaktown.com/news/16x9/89287_capcom-reveals-new-game-sales-figures-for-resident-evil-monster-hunter-and-more.png",
+      "foundationDay": "11/06/1979",
+      "gameStudios": 13,
+      "foundationCity": "Chuo Ward, Osaka, Japan"
+    },
+    {
+      "distributorId": "cdpt",
+      "distributorName": "CD PROJEKT",
+      "urlName": "cd_projekt.html",
+      "primaryColor": "#db0e15",
+      "secondaryColor": "black",
+      "imageUrl": "https://www.cdprojekt.com/en/wp-content/uploads-en/2017/06/cdp_logo-1024x576.jpg",
+      "foundationDay": "05/19/1994",
+      "gameStudios": 4,
+      "foundationCity": "Warsaw, Poland"
+    },
+    {
+      "distributorId": "sqex",
+      "distributorName": "SQUARE ENIX",
+      "urlName": "square_enix.html",
+      "primaryColor": "black",
+      "secondaryColor": "white",
+      "imageUrl": "https://exputer.com/wp-content/uploads/2023/07/Square-Enix.jpg",
+      "foundationDay": "28/05/1983",
+      "gameStudios": 10,
+      "foundationCity": "Shibuya, Tokyo, Japan"
+    },
+    {
+      "distributorId": "ea",
+      "distributorName": "ELECTRONIC ARTS",
+      "urlName": "electronic_arts.html",
+      "primaryColor": "#fc2442",
+      "secondaryColor": "white",
+      "imageUrl": "https://i.blogs.es/258ab4/sin-titulo-1/450_1000.png",
+      "foundationDay": "28/05/1982",
+      "gameStudios": 27,
+      "foundationCity": "San Mateo, California, USA"
+    },
+    {
+      "distributorId": "wbg",
+      "distributorName": "WARNER BROS. GAMES",
+      "urlName": "warner_games.html",
+      "primaryColor": "#0541a8",
+      "secondaryColor": "white",
+      "imageUrl": "https://i.redd.it/n29z67w4ljw81.jpg",
+      "foundationDay": "14/01/2004",
+      "gameStudios": 11,
+      "foundationCity": "Burbank, California, USA"
+    }
+  ],
+  "games": [
+    {
+      "distributorId": "cpm",
+      "gameName": "Okami",
+      "urlName": "okami.html",
+      "imageUrl": "https://w.wallhaven.cc/full/1j/wallhaven-1jqwv9.jpg",
+      "trailer": "https://www.youtube.com/embed/p0xkFhola3c",
+      "genres": [
+        "Action-Adventure",
+        "Artistic and Visual Novel",
+        "Puzzle"
+      ],
+      "pegi": 12,
+      "releaseDate": "20/04/2006",
+      "gameStudio": [
+        "Clover Studio",
+        "Ready at Dawn",
+        "HexaDrive"
+      ],
+      "metacriticScore": 92
+    },
+    {
+      "distributorId": "sqex",
+      "gameName": "Final Fantasy X",
+      "urlName": "final_fantasyx.html",
+      "imageUrl": "https://w.wallhaven.cc/full/r7/wallhaven-r7y8qq.jpg",
+      "trailer": "https://www.youtube.com/embed/riNzVUJumM8",
+      "genres": [
+        "Japanese Role-Playing Game",
+        "Turn-Based Strategy",
+        "Fantasy Romance"
+      ],
+      "pegi": 12,
+      "releaseDate": "19/07/2001",
+      "gameStudio": [
+        "Squaresoft"
+      ],
+      "metacriticScore": 91
+    },
+    {
+      "distributorId": "wbg",
+      "gameName": "F.E.A.R. 2: Project Origin",
+      "urlName": "fear2.html",
+      "imageUrl": "https://w.wallhaven.cc/full/nr/wallhaven-nrmyv7.jpg",
+      "trailer": "https://www.youtube.com/embed/bdLv5VGPzRY",
+      "genres": [
+        "Horror",
+        "First-Person Shooter",
+        "Science Fiction"
+      ],
+      "pegi": 18,
+      "releaseDate": "13/02/2009",
+      "gameStudio": [
+        "Monolith Productions"
+      ],
+      "metacriticScore": 78
+    },
+    {
+      "distributorId": "ea",
+      "gameName": "Need for Speed: Underground",
+      "urlName": "nfs_underground.html",
+      "imageUrl": "https://images.alphacoders.com/129/1293705.jpg",
+      "trailer": "https://www.youtube.com/embed/WWiTSTnfwv0",
+      "genres": [
+        "Street Racing",
+        "Sports Car Simulation",
+        "Customization"
+      ],
+      "pegi": 3,
+      "releaseDate": "17/11/2003",
+      "gameStudio": [
+        "EA Black Box",
+        "Pocketeers",
+        "Global VR"
+      ],
+      "metacriticScore": 86
+    },
+    {
+      "distributorId": "ea",
+      "gameName": "The Sims 2",
+      "urlName": "sims2.html",
+      "imageUrl": "https://www.gameshub.com/wp-content/uploads/sites/5/2022/04/sims-2-tiktok.jpeg",
+      "trailer": "https://www.youtube.com/embed/t9u1zMCos8w",
+      "genres": [
+        "Life Simulation",
+        "Creativity",
+        "Social Simulation"
+      ],
+      "pegi": 7,
+      "releaseDate": "14/09/2004",
+      "gameStudio": [
+        "Maxis",
+        "Griptonite Games"
+      ],
+      "metacriticScore": 88
+    },
+    {
+      "distributorId": "ea",
+      "gameName": "Dead Space",
+      "urlName": "dead_space.html",
+      "imageUrl": "https://w.wallhaven.cc/full/nz/wallhaven-nzxvw0.jpg",
+      "trailer": "https://www.youtube.com/embed/S7VvKGlVZu8",
+      "genres": [
+        "Survival Horror",
+        "Third-Person Shooter",
+        "Sci-Fi"
+      ],
+      "pegi": 18,
+      "releaseDate": "13/10/2008",
+      "gameStudio": [
+        "EA Redwood Shores"
+      ],
+      "metacriticScore": 89
+    },
+    {
+      "distributorId": "cpm",
+      "gameName": "Phoenix Wright: Ace Attorney",
+      "urlName": "phoenix_wright.html",
+      "imageUrl": "https://images8.alphacoders.com/911/911580.jpg",
+      "trailer": "https://www.youtube.com/embed/XEH0vH5QUyk",
+      "genres": [
+        "Visual Novel",
+        "Legal Drama",
+        "Comedy"
+      ],
+      "pegi": 7,
+      "releaseDate": "11/10/2001",
+      "gameStudio": [
+        "Capcom"
+      ],
+      "metacriticScore": 86
+    },
+    {
+      "distributorId": "sqex",
+      "gameName": "Kingdom Hearts II",
+      "urlName": "kingdom_hearts2.html",
+      "imageUrl": "https://w.wallhaven.cc/full/w8/wallhaven-w8r6pp.png",
+      "trailer": "https://www.youtube.com/embed/ALTCu2x9i7I",
+      "genres": [
+        "Fantasy",
+        "Action",
+        "Adventure"
+      ],
+      "pegi": 12,
+      "releaseDate": "22/12/2005",
+      "gameStudio": [
+        "Square Enix"
+      ],
+      "metacriticScore": 89
+    },
+    {
+      "distributorId": "ea",
+      "gameName": "Battlefield: Bad Company 2",
+      "urlName": "battlefield_bc2.html",
+      "imageUrl": "https://w.wallhaven.cc/full/76/wallhaven-76xqwe.jpg",
+      "trailer": "https://www.youtube.com/embed/Gmcg6F4BeUE",
+      "genres": [
+        "Military/War",
+        "Tactical Shooter",
+        "Multiplayer"
+      ],
+      "pegi": 16,
+      "releaseDate": "02/03/2010",
+      "gameStudio": [
+        "Digital Illusions CE"
+      ],
+      "metacriticScore": 86
+    },
+    {
+      "distributorId": "sqex",
+      "gameName": "Deus Ex: Human Revolution",
+      "urlName": "deus_ex_hr.html",
+      "imageUrl": "https://w.wallhaven.cc/full/yj/wallhaven-yjq6el.jpg",
+      "trailer": "https://www.youtube.com/embed/e-DwoCkpBFA",
+      "genres": [
+        "Hacking and Puzzle Solving",
+        "Interactive Storytelling",
+        "Conspiracy Thriller"
+      ],
+      "pegi": 18,
+      "releaseDate": "23/08/2011",
+      "gameStudio": [
+        "Eidos-Montréal"
+      ],
+      "metacriticScore": 87
+    },
+    {
+      "distributorId": "cpm",
+      "gameName": "Lost Planet: Extreme Condition",
+      "urlName": "lost_planet_ec.html",
+      "imageUrl": "https://w.wallhaven.cc/full/4y/wallhaven-4yl1vx.jpg",
+      "trailer": "https://www.youtube.com/embed/e6Ahoe6ovQ4",
+      "genres": [
+        "Action",
+        "Shooter",
+        "Adventure"
+      ],
+      "pegi": 16,
+      "releaseDate": "21/12/2006",
+      "gameStudio": [
+        "Campcom",
+        "K2 LLC"
+      ],
+      "metacriticScore": 73
+    },
+    {
+      "distributorId": "cpm",
+      "gameName": "Marvel vs. Capcom 2: New Age of Heroes",
+      "urlName": "marvel_capcom2.html",
+      "imageUrl": "https://images7.alphacoders.com/400/400554.jpg",
+      "trailer": "https://www.youtube.com/embed/-MarHk64UR0",
+      "genres": [
+        "2D Fighting",
+        "Crossover",
+        "Arcade"
+      ],
+      "pegi": 12,
+      "releaseDate": "24/02/2000",
+      "gameStudio": [
+        "Capcom",
+        "Backbone Entertainment"
+      ],
+      "metacriticScore": 83
+    },
+    {
+      "distributorId": "cpm",
+      "gameName": "Devil May Cry",
+      "urlName": "devil_may_cry.html",
+      "imageUrl": "https://w.wallhaven.cc/full/d5/wallhaven-d5qr8m.jpg",
+      "trailer": "https://www.youtube.com/embed/rfMte3Q0pEM",
+      "genres": [
+        "Action-Adventure",
+        "Hack and Slash",
+        "Horror"
+      ],
+      "pegi": 16,
+      "releaseDate": "23/08/2001",
+      "gameStudio": [
+        "Team Little Devils"
+      ],
+      "metacriticScore": 90
+    },
+    {
+      "distributorId": "wbg",
+      "gameName": "Mortal Kombat (2011)",
+      "urlName": "mortal_kombat.html",
+      "imageUrl": "https://images6.alphacoders.com/319/319998.jpg",
+      "trailer": "https://www.youtube.com/embed/De6u2xrJVLw",
+      "genres": [
+        "Gore",
+        "Fighting",
+        "Violence"
+      ],
+      "pegi": 18,
+      "releaseDate": "19/04/2011",
+      "gameStudio": [
+        "NetherRealm Studios"
+      ],
+      "metacriticScore": 85
+    },
+    {
+      "distributorId": "wbg",
+      "gameName": "Mad Max",
+      "urlName": "mad_max.html",
+      "imageUrl": "https://images3.alphacoders.com/643/643093.jpg",
+      "trailer": "https://www.youtube.com/embed/FqLbCUGiDpA",
+      "genres": [
+        "Vehicular Combat",
+        "Open World",
+        "Survival"
+      ],
+      "pegi": 18,
+      "releaseDate": "01/09/2015",
+      "gameStudio": [
+        "Avalanche Studios"
+      ],
+      "metacriticScore": 74
+    },
+    {
+      "distributorId": "ea",
+      "gameName": "FIFA 11",
+      "urlName": "fifa11.html",
+      "imageUrl": "https://w.wallhaven.cc/full/4y/wallhaven-4y857d.jpg",
+      "trailer": "https://www.youtube.com/embed/P93vY5ZVJ7w",
+      "genres": [
+        "Simulation",
+        "Career Mode",
+        "Online Multiplayer"
+      ],
+      "pegi": 3,
+      "releaseDate": "28/09/2010",
+      "gameStudio": [
+        "EA Canada",
+        "Exient Entertainment",
+        "HB Studios"
+      ],
+      "metacriticScore": 82
+    },
+    {
+      "distributorId": "sqex",
+      "gameName": "Tomb Raider (2013)",
+      "urlName": "tomb_raider.html",
+      "imageUrl": "https://w.wallhaven.cc/full/nr/wallhaven-nregd7.jpg",
+      "trailer": "https://www.youtube.com/embed/XsWojNNqFTg",
+      "genres": [
+        "Stealth",
+        "Puzzle-solving",
+        "Exploration"
+      ],
+      "pegi": 18,
+      "releaseDate": "05/03/2013",
+      "gameStudio": [
+        "Crystal Dynamics",
+        "Eidos Montréal",
+        "Nixxes Software BV"
+      ],
+      "metacriticScore": 86
+    },
+    {
+      "distributorId": "cdpt",
+      "gameName": "Cyberpunk 2077",
+      "urlName": "cyberpunk.html",
+      "imageUrl": "https://images8.alphacoders.com/133/1332485.jpeg",
+      "trailer": "https://www.youtube.com/embed/LembwKDo1Dk",
+      "genres": [
+        "Role-Playing Game",
+        "Open World",
+        "Dystopian"
+      ],
+      "pegi": 18,
+      "releaseDate": "10/12/2020",
+      "gameStudio": [
+        "CD Projekt Red"
+      ],
+      "metacriticScore": 79
+    },
+    {
+      "distributorId": "sqex",
+      "gameName": "NieR: Automata",
+      "urlName": "nier_automata.html",
+      "imageUrl": "https://w.wallhaven.cc/full/rr/wallhaven-rrrj2j.jpg",
+      "trailer": "https://www.youtube.com/embed/StXRi5zPPjk",
+      "genres": [
+        "Action Role-Playing",
+        "Hack and Slash",
+        "Bullet Hell"
+      ],
+      "pegi": 18,
+      "releaseDate": "23/02/2017",
+      "gameStudio": [
+        "PlatinumGames"
+      ],
+      "metacriticScore": 89
+    },
+    {
+      "distributorId": "cpm",
+      "gameName": "Resident Evil 4 (2005)",
+      "urlName": "resident_evil4.html",
+      "imageUrl": "https://images5.alphacoders.com/532/532361.jpg",
+      "trailer": "https://www.youtube.com/embed/1KTghW30ZuY",
+      "genres": [
+        "Survival Horror",
+        "Third-person shooting",
+        "Action"
+      ],
+      "pegi": 18,
+      "releaseDate": "11/01/2005",
+      "gameStudio": [
+        "Capcom Production Studio 4"
+      ],
+      "metacriticScore": 94
+    },
+    {
+      "distributorId": "wbg",
+      "gameName": "Batman: Arkham City",
+      "urlName": "batman_arkham_city.html",
+      "imageUrl": "https://w.wallhaven.cc/full/4y/wallhaven-4yr3vg.jpg",
+      "trailer": "https://www.youtube.com/embed/MlX--IPxTRU",
+      "genres": [
+        "Superhero",
+        "Action-Adventure",
+        "Beat 'em Up"
+      ],
+      "pegi": 16,
+      "releaseDate": "18/10/2011",
+      "gameStudio": [
+        "Rocksteady Studios"
+      ],
+      "metacriticScore": 91
+    },
+    {
+      "distributorId": "ea",
+      "gameName": "Plants vs. Zombies",
+      "urlName": "plants_zombies.html",
+      "imageUrl": "https://images8.alphacoders.com/530/530936.jpg",
+      "trailer": "https://www.youtube.com/embed/CHAbHz8iYHc",
+      "genres": [
+        "Tower Defense",
+        "Strategy",
+        "Casual"
+      ],
+      "pegi": 12,
+      "releaseDate": "05/05/2009",
+      "gameStudio": [
+        "PopCap Games"
+      ],
+      "metacriticScore": 87
+    },
+    {
+      "distributorId": "cdpt",
+      "gameName": "The Witcher 3: Wild Hunt",
+      "urlName": "witcher3.html",
+      "imageUrl": "https://w.wallhaven.cc/full/lq/wallhaven-lqqz2q.png",
+      "trailer": "https://www.youtube.com/embed/XHrskkHf958",
+      "genres": [
+        "Open World",
+        "Drama",
+        "Adventure"
+      ],
+      "pegi": 18,
+      "releaseDate": "19/05/2015",
+      "gameStudio": [
+        "CD Projekt RED"
+      ],
+      "metacriticScore": 92
+    },
+    {
+      "distributorId": "wbg",
+      "gameName": "Lego Star Wars: The Skywalker Saga",
+      "urlName": "lego_star_wars.html",
+      "imageUrl": "https://images6.alphacoders.com/121/1218272.jpg",
+      "trailer": "https://www.youtube.com/embed/2yTr5oS99_c",
+      "genres": [
+        "Platformer",
+        "Space Exploration",
+        "Puzzle"
+      ],
+      "pegi": 7,
+      "releaseDate": "05/04/2022",
+      "gameStudio": [
+        "Traveller's Tales"
+      ],
+      "metacriticScore": 81
+    },
+    {
+      "distributorId": "ea",
+      "gameName": "Mirror's Edge",
+      "urlName": "mirrors_edge.html",
+      "imageUrl": "https://images5.alphacoders.com/515/515335.jpg",
+      "trailer": "https://www.youtube.com/embed/2N1TJP1cxmo",
+      "genres": [
+        "Parkour",
+        "Platformer",
+        "Dystopian"
+      ],
+      "pegi": 12,
+      "releaseDate": "11/11/2008",
+      "gameStudio": [
+        "DICE"
+      ],
+      "metacriticScore": 79
+    }
+  ],
+  "developer": {
+    "name": "Juan Camilo Florez Jaramillo",
+    "email": "juankfj3108@gmail.com",
+    "web": ""
+  }
+}

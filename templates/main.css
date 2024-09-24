@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Silkscreen&display=swap');
+
+* {
+    font-family: Quicksand, sans-serif;
+    color: white;
+}
+
+main h1 {
+    background-color: #919490;
+}
+
+header {
+    background-color: #1E1E1E;
+    display: block;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+footer {
+    z-index: 1000;
+}
+
+nav img {
+    width: 40px;
+}
+
+nav *, h1, h2 {
+    font-family: Silkscreen, sans-serif;
+}
+
+h2 {
+    font-size: 62px!important;
+}
+
+h3 {
+    font-size: 40px!important;
+}
+
+nav div.btn-group:hover {
+    background-color: #8f8f8f;
+    color: black;
+}
+
+nav div.btn-group a:hover, main h1, footer * {
+    color: black;
+}
+
+{% for distributor in jdistributors %}
+
+.{{ distributor.distributorId }}{
+    background-color: {{ distributor.primaryColor }}!important;
+}
+
+.{{ distributor.distributorId }}-text {
+    color: {{ distributor.secondaryColor }}!important;
+}
+
+.{{ distributor.distributorId }}-2{
+    background-color: {{ distributor.secondaryColor }}!important;
+}
+
+.{{ distributor.distributorId }}-text-2 {
+    color: {{ distributor.primaryColor }}!important;
+}
+
+nav .{{ distributor.distributorId }}-text:hover, main div.{{ distributor.distributorId }} div.card-body button:hover {
+    background-color: {{ distributor.secondaryColor }}!important;
+    color: {{ distributor.primaryColor }}!important;
+    border-color: {{ distributor.secondaryColor }}!important;
+}
+
+{% endfor %}
+
+main {
+    margin-top: 64px;
+    margin-bottom: 56px;
+}
+
+main * {
+    color: black;
+}
+
+main div.games {
+
+}
+
+footer {
+    background-color: #8B8C7A;
+    display: block;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer a img {
+    width: 40px;
+}
+
+.special_container {
+    position: relative;
+    display: inline-block;
+}
+
+div.col a.special_container img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+a.special_container .hidden-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.special_container:hover img {
+    opacity: 0.2;
+}
+
+.special_container:hover .hidden-text {
+    opacity: 1;
+}
+
+main div.album.bg-body-tertiary {
+    background-color: #CFD3CD !important;
+}
+
+main div.row div.col-md-6 img {
+    width: 100%;
+}
+
+.pegi {
+    width: 3%;
+    margin-left: 15px;
+}

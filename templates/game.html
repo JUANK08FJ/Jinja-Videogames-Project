@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>{{ game.gameName }}</title>
+        <link rel="icon" type="image/png" href="../../img/controller.png">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+              integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link href="../main.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+                crossorigin="anonymous"></script>
+    </head>
+    <body class="{{ game.distributorId }}">
+        <header>
+            <nav>
+                <div class="container-fluid text-center">
+                    <div class="justify-content-md-center">
+
+                        {# FOR EVERY NAME DISTRIBUTOR #}
+                        {% for distributor in jdistributors %}
+
+                        <div class="btn-group m-1 mt-2 mb-2 p-1">
+                            <a href="../distributors/{{ distributor.urlName }}"><img class="rounded-circle"
+                                                                              src="../../img/{{ distributor.distributorId }}.png"
+                                                                              alt="{{ distributor.distributorName }}"></a>
+                            <div class="dropdown m-auto ms-2">
+                                <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"
+                                   aria-expanded="false">{{ distributor.distributorName }}</a>
+                                <div class="dropdown-menu mt-3 p-0 {{ distributor.distributorId }}">
+
+                                    {# IF THE ID ISN'T EQUAL JUST DON'T ANYTHING #}
+                                    {% for game in jgames %}
+                                    {% if distributor.distributorId == game.distributorId %}
+                                    <a href="{{ game.urlName }}" class="dropdown-item {{ distributor.distributorId }}-text">{{ game.gameName }}</a>
+                                    {% endif %}
+                                    {% endfor %}
+
+                                </div>
+                            </div>
+                        </div>
+
+                        {% endfor %}
+
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <div class="p-5 bg-body-tertiary {{ game.distributorId }}">
+                <div class="container-fluid py-5">
+                    <h2 class="display-5 fw-bold mb-4 {{ game.distributorId }}-text">{{ game.gameName }}</h2>
+                    <p class="col-md-8 fs-4 {{ game.distributorId }}-text">This game develop by {% for studio in jgameStudio %}{{ studio }}, {% endfor %} was released the {{ game.releaseDate }} having three base genres {% for genre in jgenres %}{{ genre }}, {% endfor %} doing it a pegi.<img class="pegi"
+                                                                                           src="../../img/pegi{{ game.pegi }}.png"
+                                                                                           alt="{{ game.gameName }}"/>
+                    </p>
+                    <p class="col-md-8 fs-4 {{ game.distributorId }}-text">Metacritic Score: {{ game.metacriticScore }}</p>
+                    {% for distributor in jdistributors %}
+                    {% if distributor.distributorId == game.distributorId %}
+                    <a class="btn btn-primary btn-lg {{ distributor.distributorId }}-2 border-0 {{ distributor.distributorId }}-text-2" type="button" href="../distributors/{{ distributor.urlName }}">{{ distributor.distributorName }}</a>
+                    {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+
+            <div class="row align-items-md-stretch">
+                <div class="col-md-6 p-4 {{ game.distributorId }}-2">
+                    <img src="{{ game.imageUrl }}" alt="{{ game.gameName }}"/>
+                </div>
+                <div class="col-md-6 p-4 {{ game.distributorId }}-2">
+                    <iframe width="100%" height="100%"
+                            src="{{ game.trailer }}"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                </div>
+            </div>
+        </main>
+
+        <footer class="d-flex flex-wrap justify-content-between align-items-center border-top p-2">
+            <p class="col-md-4 mb-0">{{ jdeveloper.name }} - {{ jdeveloper.email }}</p>
+
+            <a href="../index.html" class="col-md-4 d-flex align-items-center justify-content-center me-md-auto">
+                <img src="../../img/controller.png" alt="Controller for main page">
+            </a>
+
+            <a class="col-md-4 mb-0 text-md-end" href="{{ jdeveloper.web }}" target="_blank">{{ jdeveloper.web }}</a>
+        </footer>
+    </body>
+</html>
